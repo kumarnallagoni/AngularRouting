@@ -6,6 +6,7 @@ import {AboutComponent} from './about/about.component';
 import {IntegratonsComponent} from './integratons/integratons.component';
 import {ProductsComponent} from './products/products.component';
 import {ContactComponent} from './contact/contact.component';
+import {ReportUpdatesComponent} from './report-updates/report-updates.component';
 
 const appRoutes: Routes = [
   {path: '', redirectTo: '/about', pathMatch: 'full'},
@@ -13,6 +14,7 @@ const appRoutes: Routes = [
   {path: 'integration', component: IntegratonsComponent},
   {path: 'product', component: ProductsComponent},
   {path: 'contact', component: ContactComponent},
+  {path: 'report', component: ReportUpdatesComponent},
   {path: '**', component: PageNotFoundComponent}
 ];
 

@@ -1,0 +1,23 @@
+.accordion .panel{
+padding-left:0px;}
+.accordion .panel .panel--heading a{
+padding-left:0px;
+}
+
+
+.accordion .panel .panel--heading a .date_report_pendding {
+    background: #FF7F50;
+	padding: 28px 20px;
+margin-right:10px;
+color:#fff;
+}
+.accordion .panel .panel--heading a .date_report_success {
+    background: #32CD32;
+	padding: 28px 20px;
+margin-right:10px;
+color:#fff;
+}
+.collapse.in{
+display:inline-block;}
+.panel-space{
+margin-top:10%;}

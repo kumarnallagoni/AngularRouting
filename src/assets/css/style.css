@@ -1644,8 +1644,9 @@ ul.dot-list li i {
 /* Accordion Base */
 .accordion .panel {
   border-color: rgba(49, 49, 49, 0.1);
+  border:1px solid #111;
   padding: 28px 28px 0;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -1674,18 +1675,20 @@ ul.dot-list li i {
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
+
 }
 /* Accordion Status */
 .accordion .panel--heading .accordion-toggle:after {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
-  content: "\f068";
+  content: "\f106";
   /* symbol for "opening" panels */
   font-family: fontawesome;
-  font-size: 11px;
-  color: #ffffff;
-  background-color: #dd543d;
+      font-size: 38px;
+    font-weight: 100;
+  color: #222222;
+  /* background-color: #dd543d; */
   text-align: center;
   width: 20px;
   height: 20px;
@@ -1695,10 +1698,10 @@ ul.dot-list li i {
   border-radius: 1px;
 }
 .accordion .panel--heading .accordion-toggle.collapsed:after {
-  content: "\f067";
+  content: "\f107";
   /* symbol for "collapsed" panels */
-  color: #ffffff;
-  background-color: #222222;
+  color: #222222;
+ 
 }
 /* Accordion Style #1 */
 .accordion.accordion-1 .panel {
