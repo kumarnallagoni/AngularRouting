@@ -3901,12 +3901,12 @@ ul.dropdown-menu > li.has-dropdown > a:before {
   margin-top: -100px;
 }
 .slider {
-  height: 700px;
+  height: 550px;
   padding-top: 0;
   padding-bottom: 0;
 }
 .slider .slide--item {
-  height: 700px;
+  height: 550px;
 }
 .slider .slide--subheadline {
   color: #f9f9f9;
